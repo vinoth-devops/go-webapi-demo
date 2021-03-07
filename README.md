@@ -37,7 +37,7 @@
    ```
    curl -X POST -H "Content-Type: application/json" \
        -d '{"encrypted":"{encrypted_text}"}' \
-        http://localhost:8080/api/decrypt
+        http://localhost/api/decrypt
    
    {"decrypted":"{plain_text}"}
    ```
